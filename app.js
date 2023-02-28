@@ -10,7 +10,7 @@ app.get('/uno', function (req, res) {
 })
 
 app.get('/prueba', function (req, res) {
-  res.send('Hello World, from the prueba')
+  res.send('<h1>Hola</h1><h2>desde prueba</h2>')
 })
 
 app.listen(3000)
